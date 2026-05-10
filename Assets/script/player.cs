@@ -1,7 +1,7 @@
 using UnityEngine;
 using UnityEngine.InputSystem; // 👈 replaces UnityEngine.Input
 
-public class NewMonoBehaviourScript : MonoBehaviour
+public class PlayerControls : MonoBehaviour
 {
     [SerializeField] CharacterController controller;
     [SerializeField] Vector3 playerVelocity;
